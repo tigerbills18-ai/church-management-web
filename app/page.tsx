@@ -156,8 +156,7 @@ export default function Dashboard() {
         <div style={{ backgroundColor: 'white', padding: '20px', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
           <h3 style={{ color: '#e74c3c', margin: '0 0 10px 0' }}>Monthly Donations</h3>
           <p style={{ fontSize: '24px', fontWeight: 'bold', margin: 0 }}>${stats.totalDonations}</p>
-          <small style={{ color: '#666' }}>This month's total</small>
-        </div>
+<small style={{ color: '#666' }}>This month&apos;s total</small>        </div>
 
         <div style={{ backgroundColor: 'white', padding: '20px', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
           <h3 style={{ color: '#f39c12', margin: '0 0 10px 0' }}>Recent Attendance</h3>

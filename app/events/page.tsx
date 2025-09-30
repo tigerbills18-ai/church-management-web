@@ -6,8 +6,7 @@ import Link from 'next/link';
 import { apiService, Event } from '../../services/api';
 
 export default function EventsPage() {
-  const [events, setEvents] = useState<Event[]>([]);
-  const [filteredEvents, setFilteredEvents] = useState<Event[]>([]);
+const [, setEvents] = useState<Event[]>([]);  const [filteredEvents, setFilteredEvents] = useState<Event[]>([]);
   const [loading, setLoading] = useState(true);
   const [showAddForm, setShowAddForm] = useState(false);
   const [newEvent, setNewEvent] = useState({
