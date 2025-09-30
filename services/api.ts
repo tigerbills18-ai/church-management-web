@@ -1,5 +1,5 @@
 // services/api.ts
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://church-management-backend-6io1.onrender.com/api';
 
 export interface Member {
   id: string;
